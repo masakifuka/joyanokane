@@ -1,0 +1,4 @@
+Name: spectre analyze
+Description: spectre analize of joya ring.
+Binding: joya_analyze
+Interactive: true
