@@ -4,7 +4,7 @@
 #' 非整数次倍音がどのように含まれているかを確認できます。
 #' 
 #' @export
-analyze_bell_spectrum <- function() {
+joya_analyze <- function() {
   sr <- 44100
   sound <- synthesize_bell(freq = 150, duration = 2, sample_rate = sr)
   wave_data <- as.numeric(sound)
