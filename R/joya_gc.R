@@ -16,5 +16,5 @@ joya_gc <- function() {
 
   diff <- val_before - val_after
 
-  message(sprintf("ゴーン (煩悩（メモリ）をクリアしました: %s cells 解放)", format(diff, big.mark = ",")))
+  message(sprintf("煩悩とメモリをクリアしました: %s cells 解放", format(diff, big.mark = ",")))
 }
